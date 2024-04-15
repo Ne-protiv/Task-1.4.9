@@ -13,13 +13,18 @@ public class Task {
 
     static class DetermineGroup {
         public int determineGroup(int age) {
-            if (13 >= age & age >= 7)
+            if (13 >= age & age >= 7) {
                 return 1;
-            if (17 >= age & age >= 14)
+            }
+            if (17 >= age & age >= 14) {
                 return 2;
-            if (65 >= age & age >= 18)
+            }
+            if (65 >= age & age >= 18) {
                 return 3;
-            else return -1;
+            }
+            else{
+                return -1;
+            }
         }
     }
 }
